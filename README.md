@@ -9,7 +9,7 @@ This is the code for [this](https://youtu.be/gSQXq2_j-mw) video on Youtube by Si
 ## Dependencies
 
 * ethereumjs-testrpc 
-* web3
+* web3@0.20.1
 * solc
 
 Install missing dependencies with [npm](https://www.npmjs.com/). 
