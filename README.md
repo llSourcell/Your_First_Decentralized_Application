@@ -26,7 +26,7 @@ siraj:~/hello_world_voting$ node
 > solc = require('solc')
 > compiledCode = solc.compile(code)
 > abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface)
-> VotingContract = web3.eth.contract(abiDefinition)
+> VotingContract = new web3.eth.Contract(abiDefinition)
 > byteCode = compiledCode.contracts[':Voting'].bytecode
 > deployedContract = VotingContract.new(['Rama','Nick','Jose'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})
 > deployedContract.address
