@@ -16,6 +16,11 @@ Install missing dependencies with [npm](https://www.npmjs.com/).
 
 ## Usage
 
+After all dependancies are installed, run the `testrpc` service with:
+```
+node_modules/ethereumjs-testrpc/build/cli.node.js
+```
+
 Run the following commands to open the node console then deploy your contract to the test chain
 
 ```
