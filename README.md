@@ -14,6 +14,12 @@ This is the code for [this](https://youtu.be/gSQXq2_j-mw) video on Youtube by Si
 
 Install missing dependencies with [npm](https://www.npmjs.com/). 
 
+```
+> git clone git@github.com:llSourcell/Your_First_Decentralized_Application.git
+> cd Your_First_Decentralized_Application
+> npm install 
+```
+
 ## Usage
 
 Run the following commands to open the node console then deploy your contract to the test chain
