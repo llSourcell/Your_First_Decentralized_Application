@@ -1,0 +1,12 @@
+{
+  "name": "Your_First_Decentralized_Application",
+  "version": "1.0.0",
+  "description": "Your first decentralized application",
+  "author": "",
+  "repository": "git@github.com:llSourcell/Your_First_Decentralized_Application.git",
+  "devDependencies": {
+    "ethereumjs-testrpc": "^4.1.3",
+    "solc": "^0.4.17",
+    "web3": "^0.20.1"
+  }
+}
