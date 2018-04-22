@@ -33,7 +33,7 @@ Run the following commands to open the node console then deploy your contract to
 siraj:~/hello_world_voting$ node
 > Web3 = require('web3')
 > web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
-> code = fs.readFileSync('Voting.sol').toString()
+> code = fs.readFileSync('voting.sol').toString()
 > solc = require('solc')
 > compiledCode = solc.compile(code)
 > abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface)
