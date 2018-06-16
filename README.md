@@ -1,7 +1,7 @@
 # Sample Web 3.0 DApp
 Based on "This is the code for "A Guide to Building Your First Decentralized Application" by Siraj Raval on Youtube (https://youtu.be/gSQXq2_j-mw)"
 
-
+![](http://g.recordit.co/P97rW5qFmk.gif)
 ## Overview
 
 Self contained project to run Web 3.0 (DApp) using Node.js with 2 simple commands (no coding needed)
