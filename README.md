@@ -26,12 +26,9 @@ Install YARN (https://yarnpkg.com/en/)
 
 
 ## Manual testing
-```
-
 Manually connect to blockchain, load contract and get blockchain address (Optional)
-
 ```
-siraj:~/hello_world_voting$ node
+$:~/hello_world_voting$ node
 > Web3 = require('web3')
 > web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 > code = fs.readFileSync('Voting.sol').toString()
