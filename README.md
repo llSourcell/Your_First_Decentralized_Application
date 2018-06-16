@@ -7,6 +7,7 @@ Based on "This is the code for "A Guide to Building Your First Decentralized App
 Self contained project to run Web 3.0 (DApp) using Node.js with 2 simple commands (no coding needed)
 
 ## QuickStart
+Run following command and it will automatically pull the code, install dependencies, start the blockchain, start a simple backend and start website on your browser!
 ```
 > git clone git@github.com:rpavez/Your_First_Decentralized_Application.git
 > cd Your_First_Decentralized_Application
