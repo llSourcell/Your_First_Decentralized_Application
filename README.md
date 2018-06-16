@@ -1,36 +1,35 @@
-# Your_First_Decentralized_Application
-This is the code for "A Guide to Building Your First Decentralized Application" by Siraj Raval on Youtube
+# Sample Web 3.0 DApp
+Based on "This is the code for "A Guide to Building Your First Decentralized Application" by Siraj Raval on Youtube (https://youtu.be/gSQXq2_j-mw)"
 
-
+![](http://g.recordit.co/P97rW5qFmk.gif)
 ## Overview
 
-This is the code for [this](https://youtu.be/gSQXq2_j-mw) video on Youtube by Siraj Raval. It's a guide on how to build your first decentralized application. 
+Self contained project to run Web 3.0 (DApp) using Node.js with 2 simple commands (no coding needed)
+
+## QuickStart
+Run following command and it will automatically pull the code, install dependencies, start the blockchain, start a simple backend and start website on your browser!
+```
+> git clone git@github.com:rpavez/Your_First_Decentralized_Application.git
+> cd Your_First_Decentralized_Application
+> yarn start
+```
+
 
 ## Dependencies
 
 * ethereumjs-testrpc 
 * web3@0.20.1
 * solc
+* express, jquery
 
-Install missing dependencies with [npm](https://www.npmjs.com/). 
+Install Node.js (https://nodejs.org/es/)
+Install YARN (https://yarnpkg.com/en/)
 
+
+## Manual testing
+Manually connect to blockchain, load contract and get blockchain address (Optional)
 ```
-> git clone git@github.com:llSourcell/Your_First_Decentralized_Application.git
-> cd Your_First_Decentralized_Application
-> npm install 
-```
-
-## Usage
-
-After all dependancies are installed, run the `testrpc` service with:
-```
-node_modules/ethereumjs-testrpc/build/cli.node.js
-```
-
-Run the following commands to open the node console then deploy your contract to the test chain
-
-```
-siraj:~/hello_world_voting$ node
+$:~/hello_world_voting$ node
 > Web3 = require('web3')
 > web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 > code = fs.readFileSync('Voting.sol').toString()
@@ -48,4 +47,6 @@ Interact with the contract via the html page attached, just open it in your brow
 
 ## Credits
 
-The credits for this code go to [maheshmurthy](https://gist.github.com/maheshmurthy). I've merely created a wrapper to get people started. 
+The credits for this code go to Siraj Raval [Original Repo](https://github.com/llSourcell/Your_First_Decentralized_Application).
+Siraj based his project on [maheshmurthy](https://gist.github.com/maheshmurthy).
+Also based on this tutorial [Tutorial](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2)
