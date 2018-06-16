@@ -1,4 +1,4 @@
-# Your_First_Decentralized_Application
+# Sample Web 3.0 DApp
 Based on "This is the code for "A Guide to Building Your First Decentralized Application" by Siraj Raval on Youtube (https://youtu.be/gSQXq2_j-mw)"
 
 
